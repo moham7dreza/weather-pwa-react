@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import axios from "axios";
+import InstallButton from "./components/InstallButton";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
 
     return (
         <div className="main-container">
+            <InstallButton/>
             <input type="text" className="search" placeholder="نام شهر..."
                    value={city}
                    onChange={e => setCity(e.target.value)}

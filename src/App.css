@@ -132,3 +132,33 @@ p {
     padding: 40px 20%;
   }
 }
+
+.install-button {
+  background-color: #6200ea;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition:
+          background-color 0.3s ease,
+          transform 0.2s ease;
+  margin: 2rem;
+}
+
+.install-button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+.install-button:active {
+  background-color: #3700b3;
+  transform: translateY(0);
+}
+
+.install-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(98, 0, 234, 0.5);
+}
