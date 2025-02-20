@@ -24,7 +24,8 @@ function App() {
                 params: {
                     q: city,
                     units: 'metric',
-                    APPID: API_KEY
+                    APPID: API_KEY,
+                    lang: 'fa',
                 }
             })
 
